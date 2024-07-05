@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainapp{
+    
+    height: 100vh;
+}
+.my_costomize_container{
+	background-color: rgb(100 116 139);
+        border: 2px solid #0759859a ;
+}
+.logopic{
+    gap: 14px;
+    color: #075985;
+    font-size: xx-large;
+font-weight: bolder;
+}
+.logo{
+    color: #075985;
+    font-size: xx-large;
+font-weight: bolder;
+}
+.secondlogo{
+    color: #cad2e0;
+    font-size: small;
+    font-weight: bolder;
+}
+
+/* input */
+
+input {
+    background: transparent;
+    color: inherit; /* optional: inherit text color */
+  }
+.transparent-input {
+    font-size: medium;
+    width: 50vw;
+}
+.listing{
+    list-style-type: none;
+}
+.slider-container {
+    overflow: hidden; /* Hide horizontal scrollbar */
+    
+  }
+  
