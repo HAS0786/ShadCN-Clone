@@ -10,7 +10,7 @@ import ContactForm from './ContactForm';
 function EmailComponent({theme}) {
   return (
    
-    <div className="flex min-h-screen  border-2 border-gray-500 ">
+    <div className="flex min-h-screen  border-2 border-gray-500">
       {/* Sidebar */}
       <div className="md:col-span-1">
         <div className="relative top-8 scroll-m-1">

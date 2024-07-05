@@ -17,18 +17,19 @@ const Navbar = ({ theme, themeChanger }) => {
   };
 
   return (
-    <div className={`border-b-2 border-gray-700 ${theme === "dark" ? 'bg-transparent' : 'bg-gray-100 text-gray-800'}`}>
+    <div className={`fixed z-30 border-b-2 w-full border-gray-700 ${theme === "dark" ? 'bg-transparent backdrop-filter backdrop-blur-lg backdrop-brightness-50' : 'bg-gray-200 text-gray-800 backdrop-filter backdrop-contrast-100 '}`}>
+
       <div className="flex justify-between items-center px-4 py-3 md:px-8">
         <div className="flex items-center space-x-3 md:space-x-5 gap-6">
           {/* Logo and Name (hidden on small screens) */}
           <div className="hidden md:flex items-center space-x-3">
             <span className="text-2xl">
-            <Link to={PageList.Home}>
+            <Link to={"/home/email"}>
               <VscVscodeInsiders />
               </Link>
             </span>
             <span className="text-xl font-bold">
-              <Link to={PageList.Home}>
+              <Link to={"/home/email"}>
               Hasnat
               </Link>
               </span>

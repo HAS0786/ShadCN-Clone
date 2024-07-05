@@ -8,7 +8,7 @@ import AuthRotes from "../../Auth/AuthRotes";
 import Header from "../Header/Header";
 import Navbar from "../Header/Navbar";
 import EmailComponent from "../MailDashboards/Email/EmailComponent";
-import Docs from "../Pages/Docs";
+import Docs from "../Pages/Docs/Docs";
 import Blocks from "../Pages/Blocks";
 import Components from "../Pages/Components";
 import Example from "../Pages/Example";
@@ -44,7 +44,7 @@ const ChildofApp = ({ theme, themeChanger }) => {
         <Route path={"/"} element={<Navigate to={PageList.Email} />} />
         <Route path="/login" element={<Login theme={theme} />} />
         <Route path={PageList.Email} element={<EmailComponent theme={theme} />} />
-        <Route path={PageList.Docs} element={<Docs />} />
+        <Route path={PageList.Docs} element={<Docs theme={theme} />} />
         <Route path={PageList.Blocks} element={<Blocks />} />
         <Route path={PageList.Components} element={<Components />} />
         <Route path={PageList.Example} element={<Example />} />
